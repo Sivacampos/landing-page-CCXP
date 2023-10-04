@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho{
+    background-color: #FFD900;
+    height: 118px;
+    width: auto
+
+}
+#ccxp{
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 63px;
+    width: 202px;
+}
+#section1{
+    display: grid;
+    grid-auto-flow: column;
+
+}
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    height: 95px;
+    align-items: center;
+    color: #514988;
+}
+#reviva{
+    background-color: #514988
+}
+#titulo{
+    color: #F3C61F;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#subtitulo{
+    color:  #ffffff;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+#texto{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+#maior{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #E33881;
+}
+#video{
+    margin-left: 6%;
+    
+}
+#dias{
+    color: #F3C61F;
+    margin-left: 15px;
+    text-shadow: #514988 1px 1px;
+}
+.cardDias{
+    width: 180px;
+    box-shadow: #514988 2px 2px;
+}
+#section2{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 20px;
+}
+
+#botao{
+    text-align: center;
+    height: 105px;
+    width: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 100px;
+    border: none;
+    background-color: #514988;
+    color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#section2 button:hover{
+    color: #F3C61F;
+}
+
+@media only screen and (max-width: 600px){
+   
+#cabecalho{
+   width: auto;
+}
+#ccxp{
+    margin-left: 110px;
+}
+
+#section1{
+    display: grid;
+    grid-auto-flow: row;
+    width:100px;
+    text-align: center;
+}
+#maior{
+ font-size: 28px;
+ text-align: center;
+ width: 400px;
+}
+#video{
+    width: 380px;
+    margin-left: 2px;
+}
+#reviva{
+    width: 412px;
+}
+.timer{
+    width: 400px;
+}
+#section2{
+    display: grid;
+    grid-auto-flow: row;  
+}
+#dias{
+    text-align: center;
+}
+#cards{
+    text-align: center;
+}
+
+#botao{
+    width: 380px;
+    margin-left: 15px;
+}
+    
+}
+
