@@ -96,6 +96,13 @@ body{
 #section2 button:hover{
     color: #F3C61F;
 }
+footer{
+    background-color: #484848;
+    color: white;
+    text-align: center;
+    width: auto;
+    
+}
 
 @media only screen and (max-width: 600px){
    
