@@ -71,7 +71,7 @@ body{
 }
 .cardDias{
     width: 180px;
-    box-shadow: #514988 2px 2px;
+   
 }
 #section2{
     display: grid;
@@ -80,6 +80,7 @@ body{
 }
 
 #botao{
+    box-shadow: 2px 3px red;
     text-align: center;
     height: 105px;
     width: 400px;
@@ -100,8 +101,10 @@ footer{
     background-color: #484848;
     color: white;
     text-align: center;
-    width: auto;
-    
+    width: auto; 
+}
+.card-highlight{
+   box-shadow: 5px 10px red; 
 }
 
 @media only screen and (max-width: 600px){

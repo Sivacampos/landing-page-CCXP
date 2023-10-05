@@ -3,6 +3,11 @@ const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 
+function highlightCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-highlight");
+}
+
 const lancamento = "10 oct 2023"
 
 function countDown(){
