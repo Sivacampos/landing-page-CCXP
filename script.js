@@ -3,7 +3,6 @@ const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 
-<<<<<<< HEAD
 function highlightCard(selector){
     var element = document.querySelector(selector);
     element.classList.toggle("card-highlight");
@@ -18,10 +17,8 @@ function checkKeyboardCode(){
 }
 
 
-const lancamento = "10 oct 2023"
-=======
 const lancamento = "31 dec 2023"
->>>>>>> 0b31fc0a25df5b909dfe56475a62d1e5ad188ec7
+
 
 function countDown(){
    const dataLanc = new Date(lancamento)
