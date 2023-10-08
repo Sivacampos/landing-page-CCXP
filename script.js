@@ -8,6 +8,15 @@ function highlightCard(selector){
     element.classList.toggle("card-highlight");
 }
 
+function checkKeyboardCode(){
+    document.addEventListener('keydown', (event) => {
+        var name = event.key;
+        var code = event.code;
+        alert(`Tecla precionada ${name} \r\n Key code: ${code}`);
+    }, false);
+}
+
+
 const lancamento = "10 oct 2023"
 
 function countDown(){
