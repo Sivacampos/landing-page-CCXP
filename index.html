@@ -48,17 +48,48 @@
         <div>
             <h2 id="dias">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
             <div id="cards">
-                <img class="cardDias" src="/img/quinta.svg" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta">
-                <img class="cardDias" src="/img/sexta.svg" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
-                <img class="cardDias" src="/img/esgotado.svg" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
-                <img class="cardDias" src="/img/domingo.svg" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
+                <img class="cardDias" src="/img/quinta.svg"
+                onclick="selectCard('#quinta')"
+                onmouseover="highlightCard('#quinta')"
+                onmouseout="highlightCard('#quinta')"
+                id="quinta"
+                alt="">
+
+                <img class="cardDias" src="/img/sexta.svg"
+                onclick="selectCard('#sexta')"
+                onmouseover="highlightCard('#sexta')"
+                onmouseout="highlightCard('#sexta')"
+                id="sexta"
+                alt="">
+
+                <img class="cardDias" src="/img/esgotado.svg"
+                onclick="selectCard('#sabado')"
+                onmouseover="highlightCard('#sabado')"
+                onmouseout="highlightCard('#sabado')"
+                id="sabado"
+                alt="">
+
+                <img class="cardDias" src="/img/domingo.svg"
+                onclick="selectCard('#domingo')"
+                onmouseover="highlightCard('#domingo')"
+                onmouseout="highlightCard('#domingo')"
+                id="domingo"
+                alt="">
             </div>
 
         </div>
         <div>
-            <button id="botao">GARANTA O SEU!</button>
+            <button onclick="showSelectedCards()" id="botao">GARANTA O SEU!</button>
         </div>
     </section>
+    
+    <div id="form">
+        <form action="https://www.google.com.br" target="_blank">
+            <input class="inputMail" type="email" placeholder="Seu email" required />
+            <input class="buttonMail" type="submit" />
+        </form>
+    </div>
+
     <footer>
         <p>- PISI tecnology -</p>
     </footer>

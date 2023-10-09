@@ -1,3 +1,5 @@
+const ingressos =[];
+
 const dia = document.getElementById('dia')
 const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
@@ -39,6 +41,17 @@ function countDown(){
 
 function formatoTempo( tempo ){
     return tempo < 10? `0${tempo}` : tempo;
+}
+
+function selectCard(selector){
+   var element = document.querySelector(selector);
+   element.classList.toggle("card-selected");
+   if(ingressos.includes(selector)) ingressos.pop(selector);
+   else ingressos.push(selector)
+}
+
+function showSelectedCards(){
+    if(ingressos.length > 0) alert("Ingressos Selecionados:" + ingressos)
 }
 
 countDown();

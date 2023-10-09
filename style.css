@@ -105,8 +105,46 @@ footer{
     width: auto; 
 }
 .card-highlight{
-   box-shadow: 5px 10px red; 
+   box-shadow: 5px 10px 10px 10px red; 
 }
+
+.card-selected{
+    border: 5px solid green;
+}
+
+#form{
+    background-color: #F3C61F ;
+    height: 100px;
+    text-align: center;
+}
+
+.inputMail{
+    width: 300px;
+    height: 40px;
+    background-color:#514988;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.buttonMail{
+    width: 100px;
+    height: 41px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.inputMail::placeholder{
+    color: #ffffff;
+    padding: 3px 15px;
+}
+
+/*=========================CONFIGURAÇÃO MOBILE==============================*/
 
 @media only screen and (max-width: 600px){
    
@@ -149,9 +187,22 @@ footer{
     text-align: center;
 }
 
+.cardDias{
+    margin-top: 20px;
+}
+
 #botao{
     width: 380px;
     margin-left: 15px;
+}
+
+#form{
+    height: 150px;
+}
+
+.inputMail{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
     
 }
